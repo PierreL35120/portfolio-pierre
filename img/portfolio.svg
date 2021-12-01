@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg824"
+   width="52"
+   height="52"
+   viewBox="0 0 52.000001 52"
+   sodipodi:docname="portfolio.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs828" />
+  <sodipodi:namedview
+     id="namedview826"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="12.234375"
+     inkscape:cx="13.977011"
+     inkscape:cy="26.196679"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g830" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g830"
+     transform="translate(-4.3664037,-5.7888289)">
+    <path
+       style="fill:#afc6e9;fill-opacity:1;stroke:#000000;stroke-width:0.377953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 43.233717,6.4572158 C 23.171482,10.835359 20.586124,18.193562 18.712644,25.828864 24.243065,19.059622 28.5569,11.632121 39.065134,14.467433 5.5240495,30.480454 30.192716,57.510982 45.195402,40.950192 l -5.067688,6.375479 C 43.939172,45.773532 47.728863,44.025492 51.325671,40.541507 18.256657,93.738805 -23.0557,3.5107286 43.233717,6.4572158 Z"
+       id="path966"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#ffff8d;fill-opacity:1;stroke:#000000;stroke-width:0.377953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 29.992337,22.722862 c 8.438477,7.122576 13.008429,-2.396028 19.126437,-4.168583 -4.898599,6.877396 -9.898411,13.752952 -3.106002,20.842912 -5.788032,-4.912222 -12.551077,-2.860062 -19.862069,3.106002 4.499633,-6.862021 6.505292,-13.352449 3.841634,-19.780331 z"
+       id="path1704"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
