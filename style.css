@@ -335,9 +335,8 @@ input[type=submit] {
     }
     
     nav{
-        height: 70px;
-        max-height: 70px;
-        width: 66rem;
+        height: 100px;
+        width: 100%;
     }
     
     .lien{
