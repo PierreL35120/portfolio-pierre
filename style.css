@@ -386,8 +386,8 @@ input[type=submit] {
         height: auto;
     }
 
-    p{
-        font-size: 120%;
+  p{
+        font-size: 160%;
     }
 
     .moi img{
@@ -397,6 +397,11 @@ input[type=submit] {
 
     #suis h2{
         margin-top: 2rem;
+    }
+
+    .moi p{
+        width: 100%;
+        margin-left: -4rem;
     }
 
 }
