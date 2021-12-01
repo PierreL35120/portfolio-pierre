@@ -255,7 +255,7 @@ input[type=submit] {
 
 /*Coordonées*/
 
-.poste, .numerique{
+.poste, .numerique, .cv{
     border-radius: 5px;
     text-align: center;
     justify-content: center;
@@ -285,6 +285,19 @@ input[type=submit] {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 1rem;
+}
+
+.cv{
+    text-decoration: none;
+    text-align: center;
+    background: #4B4B4B;
+    color: #E5E5E5;
+    font-size: 150%;
+    margin-left: 41rem;
+}
+
+.cv p{
+    text-decoration: none;
 }
 
 /*Footer*/
@@ -386,7 +399,7 @@ input[type=submit] {
         height: auto;
     }
 
-  p{
+    p{
         font-size: 160%;
     }
 
@@ -402,6 +415,24 @@ input[type=submit] {
     .moi p{
         width: 100%;
         margin-left: -4rem;
+    }
+
+    .numerique, .poste, .cv{
+        font-size: 110%;
+        height: 8rem;
+        width: 110%;
+        align-items: center;
+        justify-content: center;
+        transform:translateX(-50%);
+        margin-left: 50%;
+    }
+
+    .numerique{
+        margin-top: 3rem;
+    }
+
+    .cv{
+        font-size: 600%;
     }
 
 }
