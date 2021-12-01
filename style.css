@@ -390,4 +390,13 @@ input[type=submit] {
         font-size: 120%;
     }
 
+    .moi img{
+        transform: translateX(-50%);
+        margin-left: 50%;
+    }
+
+    #suis h2{
+        margin-top: 2rem;
+    }
+
 }
