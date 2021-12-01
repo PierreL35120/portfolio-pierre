@@ -419,8 +419,8 @@ input[type=submit] {
 
     .numerique, .poste, .cv{
         font-size: 110%;
-        height: 6rem;
-        width: 110%;
+        height: 8rem;
+        width: 100%;
         align-items: center;
         justify-content: center;
         transform:translateX(-50%);
