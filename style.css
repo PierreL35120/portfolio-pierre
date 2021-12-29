@@ -445,9 +445,18 @@ input[type=submit] {
     p{
         font-size: 100%;
     }
+    h1{
+        visibility: hidden;
+    }
 
+    .logo-mobile{
+        visibility: visible;
+        margin-left: -16%;
+        font-size: 65px;
+    }
+    
     .lien{
-        margin-left: 20rem;
+        margin-left: 10rem;
     }
 
     .numerique, .poste, .cv{
