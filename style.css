@@ -437,7 +437,7 @@ input[type=submit] {
 
 }
 
-@media (min-width: 591px) and (max-width: 1429px){
+@media (min-width: 591px) and (max-width: 1336px){
     body{
         width: 100%;
     }
@@ -455,3 +455,5 @@ input[type=submit] {
         padding-left: -9rem;
     }
 }
+
+@media (min-width: 1337px) and (max-width: 1429px){
