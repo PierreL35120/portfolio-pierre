@@ -447,7 +447,7 @@ input[type=submit] {
     }
 
     .lien{
-        margin-left: 30rem;
+        margin-left: 20rem;
     }
 
     .numerique, .poste, .cv{
@@ -457,3 +457,20 @@ input[type=submit] {
 }
 
 @media (min-width: 1337px) and (max-width: 1429px){
+    body{
+        width: 100%;
+    }
+
+    p{
+        font-size: 100%;
+    }
+
+    .lien{
+        margin-left: 30rem;
+    }
+
+    .numerique, .poste, .cv{
+        align-items: center;
+        padding-left: -9rem;
+    }
+}
