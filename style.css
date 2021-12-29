@@ -457,6 +457,11 @@ input[type=submit] {
     
     .lien{
         margin-left: 10rem;
+        margin-top: -3rem;
+    }
+
+    .lien p{
+        font-size: 27px;
     }
 
     .numerique, .poste, .cv{
