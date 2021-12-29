@@ -448,7 +448,13 @@ input[type=submit] {
     h1{
         visibility: hidden;
     }
-
+    
+    nav{
+        height: 70px;
+        max-height: 70px;
+        width: 100%;
+    }
+    
     .logo-mobile{
         visibility: visible;
         margin-left: -16%;
