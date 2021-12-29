@@ -437,7 +437,7 @@ input[type=submit] {
 
 }
 
-@media screen and (max-width: 1429px){
+@media (min-width: 591px) and (max-width: 1429px){
     body{
         width: 100%;
     }
