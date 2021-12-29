@@ -335,7 +335,8 @@ input[type=submit] {
     }
     
     nav{
-        height: 100px;
+        height: 70px;
+        max-height: 70px;
         width: 100%;
     }
     
@@ -418,7 +419,7 @@ input[type=submit] {
 
     .numerique, .poste, .cv{
         font-size: 110%;
-        height: 8rem;
+        height: 7rem;
         width: 100%;
         align-items: center;
         justify-content: center;
@@ -434,4 +435,23 @@ input[type=submit] {
         font-size: 600%;
     }
 
+}
+
+@media screen and (max-width: 1429px){
+    body{
+        width: 100%;
+    }
+
+    p{
+        font-size: 100%;
+    }
+
+    .lien{
+        margin-left: 30rem;
+    }
+
+    .numerique, .poste, .cv{
+        align-items: center;
+        padding-left: -9rem;
+    }
 }
