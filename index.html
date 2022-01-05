@@ -13,11 +13,12 @@
         <nav>
             <h1>Pierre Lemonnier</h1>
             <h1 class="logo-mobile">PL</h1>
-            <div class="lien"><a href="#suis"><p>Qui suis-je ?</p></a>
-            <a href="#competence"><p>Mes compétences</p></a>
-            <a href="#creations"><p>Mes créations</p></a>
-            <a href="#mecontacter"><p>Me contacter</p></a>
-            <a href="#coordonees"><p>Mes coordonées</p></a></div>
+            <div class="lien">
+                <a href="#suis"><p>Présentation</p></a>
+                <a href="#competence"><p>Compétences</p></a>
+                <a href="#creations"><p>Créations</p></a>
+                <a href="#coordonees"><p>Coordonées</p></a>
+            </div>
         </nav>
     </header>
     
@@ -90,46 +91,28 @@
         
         <div class="transition-bn"></div>
         
-        <!-- Le formulaire -->
-        
-        <div id="mecontacter">
-            <h2>Me contacter</h2>
-            <div class="contacter">
-                <form action="https://formspree.io/f/xoqranak" method="POST">
-                    <input type="email" placeholder="Votre mail" name="Adresse">
-                    <input type="text" placeholder="Nom et Prénom" name="Identite">
-                    
-                    <div id="Message">
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    
-                    </div>
-                    <input type="submit" value="Envoyer le mail">
-                </form>
-            </div>
-        </div>
-        
-        <div class="transition-nb"></div>
-        
         <!-- Mes coordonées -->
         
         <section id="coordonees">
             <h2>Mes coordonées</h2>
-            <div class="coordonnee">
-                <div class="poste">
+            <div class="cards">
+                <div class="coordonnee">
+                    <div class="poste">
+                        <p>
+                            <span class="titre">Voie Postale :</span><br>11 rue de Paris<br>35120 Baguer-Pican<br>Pierre Lemonnier
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="numerique">
                     <p>
-                        <span class="titre">Voie Postale :</span><br>11 rue de Paris<br>35120 Baguer-Pican<br>Pierre Lemonnier
+                        <span class="titre">Numérique :</span><br><br>06.67.96.34.62<br>pierre87.1997@gmail.com
                     </p>
                 </div>
-            </div>
-            
-            <div class="numerique">
-                <p>
-                    <span class="titre">Numérique :</span><br><br>06.67.96.34.62<br>pierre87.1997@gmail.com
-                </p>
-            </div>
-
-            <div class="cv">
-                <a href="./PierreLemonnierCV.pdf" download="CV">Le CV</a>
+    
+                <div class="cv">
+                    <a href="./PierreLemonnierCV.pdf" download="CV">Le CV</a>
+                </div>
             </div>
         </section>
         
@@ -141,15 +124,52 @@
         
         <div class="reseaux">
             
-            <a href="https://github.com/PierreL35120"><img src="./img/Github.svg" alt=""></a>
+            <a href="https://github.com/PierreL35120"><img src="./img/Github.svg" alt="github"></a>
             <a href="https://www.linkedin.com/in/pierre-lemonnier-a68196224/">
-                <img src="./img/LinkedIn.svg" alt="">
+                <img src="./img/LinkedIn.svg" alt="linkedin">
             </a>
             <a href="#">
-                <img src="./img/Twitter.svg" alt="">
+                <img src="./img/Twitter.svg" alt="twitter">
             </a>
         </div>
     </footer>
+
+    <!-- Le formulaire -->
+
+     <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+     <script>
+     /* paste this line in verbatim */
+     window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+     /* customize formbutton below*/     
+     formbutton("create", {
+         action: "https://formspree.io/f/xoqranak",
+         title: "How can we help?",
+         fields: [
+         { 
+             type: "email", 
+             label: "Email:", 
+             name: "email",
+             required: true,
+             placeholder: "your@email.com"
+         },
+         {
+             type: "textarea",
+             label: "Message:",
+             name: "message",
+             placeholder: "What's on your mind?",
+         },
+         { type: "submit" }      
+         ],
+         styles: {
+         title: {
+             backgroundColor: "gray"
+         },
+         button: {
+             backgroundColor: "gray"
+         }
+         }
+     });
+     </script>
     
 </body>
 </html>
