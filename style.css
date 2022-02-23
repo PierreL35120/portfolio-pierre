@@ -209,6 +209,7 @@ nav a{
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: #4B4B4B;
 }
 
 .titre{
@@ -254,13 +255,13 @@ nav a{
 
 .cv{
     text-align: center;
-    background: #4B4B4B;
+    background: #E5E5E5;
     font-size: 150%;
 }
 
 .cv a{
     text-decoration: none;
-    color: #E5E5E5;
+    color: #4B4B4B;
 }
 
 /*Footer*/
@@ -271,12 +272,22 @@ nav a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #4B4B4B;
+    background-color: #E5E5E5;
 }
 
 .reseaux img{
     height: 50px;
     width: 50px;
+}
+
+.transition-bn{
+    height: 10px;
+     background: linear-gradient(180deg, #E5E5E5 0%, #4B4B4B 100%);;
+}
+
+.transition-nb{
+    height: 10px;
+     background: linear-gradient(360deg, #E5E5E5 0%, #4B4B4B 100%);;
 }
 
 @media screen and (max-width: 600px) {
