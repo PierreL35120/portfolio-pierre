@@ -282,12 +282,14 @@ nav a{
 
 .transition-bn{
     height: 10px;
-     background: linear-gradient(180deg, #E5E5E5 0%, #4B4B4B 100%);;
+     background: linear-gradient(180deg, #E5E5E5 0%, #4B4B4B 100%);
+    width: 100%;
 }
 
 .transition-nb{
     height: 10px;
-     background: linear-gradient(360deg, #E5E5E5 0%, #4B4B4B 100%);;
+     background: linear-gradient(360deg, #E5E5E5 0%, #4B4B4B 100%);
+    width : 100%;
 }
 
 @media screen and (max-width: 600px) {
